@@ -39,6 +39,23 @@ Interactive playground for **linear**, **nonlinear**, and **regression** models 
 
 ---
 
+## 🚀 Run (Notebook)
+
+### Option 1 — Google Colab (Recommended)
+Upload the notebook to Colab and run all cells:
+- `notebooks/MachineLearningPlaygroundLast.ipynb`
+
+### Option 2 — Run locally
+```bash
+pip install -r requirements.txt
+jupyter notebook
+```
+Open:
+```
+notebooks/MachineLearningPlaygroundLast.ipynb
+```
+---
+
 ## ✅ Using your own CSV
 
 ### Requirements
