@@ -3,6 +3,9 @@ Interactive playground for **linear**, **nonlinear**, and **regression** models 
 
 > Built with **Scikit-learn + Matplotlib + Gradio** for an interactive, hands-on ML learning experience.
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ghayda-njaafreh/ml-decision-surfaces-lab/blob/main/notebooks/MachineLearningPlaygroundLast.ipynb)
+
+
 ---
 
 ## ✨ What you can do
