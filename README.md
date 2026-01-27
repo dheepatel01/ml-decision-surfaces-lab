@@ -52,7 +52,7 @@ jupyter notebook
 ```
 Open:
 ```
-notebooks/MachineLearningPlaygroundLast.ipynb
+notebooks/MachineLearningPlayground.ipynb
 ```
 ---
 
