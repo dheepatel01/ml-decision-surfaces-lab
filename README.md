@@ -98,8 +98,6 @@ Interactive playground for **linear**, **nonlinear**, and **regression** models 
 
 ---
 
----
-
 ## 🙌 Acknowledgements
 
 * **Scikit-learn** for classic ML models and dataset generators
